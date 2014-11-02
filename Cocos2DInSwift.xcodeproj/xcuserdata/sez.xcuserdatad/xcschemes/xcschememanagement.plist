@@ -4,6 +4,16 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Chipmunk.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Cocos2D.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>Cocos2DInSwift.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +28,26 @@
 			<true/>
 		</dict>
 		<key>F62F46FB1A0605AC0087DDDF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F62F470F1A0607790087DDDF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F62F47191A0607790087DDDF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F62F48D91A060CCD0087DDDF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F62F48E31A060CCD0087DDDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
