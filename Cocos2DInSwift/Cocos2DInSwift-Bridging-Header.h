@@ -13,7 +13,5 @@
 #import "CCBuilderReader.h"
 #import "ObjectiveChipmunk.h"
 #import "ObjectAL.h"
-#import "Platforms/iOS/CCAppDelegate.h"
-#import "NSMutableArray+WeakReferences.h"
 
 #endif

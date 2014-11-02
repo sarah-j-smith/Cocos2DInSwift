@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F62F46ED1A0605AC0087DDDF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62F46EC1A0605AC0087DDDF /* AppDelegate.swift */; };
-		F62F46EF1A0605AC0087DDDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62F46EE1A0605AC0087DDDF /* ViewController.swift */; };
 		F62F46F41A0605AC0087DDDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F62F46F31A0605AC0087DDDF /* Images.xcassets */; };
 		F62F46F71A0605AC0087DDDF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F62F46F51A0605AC0087DDDF /* LaunchScreen.xib */; };
 		F62F49A81A060F530087DDDF /* chipmunk.c in Sources */ = {isa = PBXBuildFile; fileRef = F62F497B1A060F530087DDDF /* chipmunk.c */; };
@@ -195,6 +194,23 @@
 		F62F4BA71A0623F20087DDDF /* IntroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62F4BA61A0623F20087DDDF /* IntroScene.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		F62F4BAA1A0668590087DDDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F62F46DF1A0605AC0087DDDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F62F470F1A0607790087DDDF;
+			remoteInfo = Cocos2D;
+		};
+		F62F4BAC1A0668590087DDDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F62F46DF1A0605AC0087DDDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F62F48D91A060CCD0087DDDF;
+			remoteInfo = Chipmunk;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		F62F470E1A0607790087DDDF /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -220,7 +236,6 @@
 		F62F46E71A0605AC0087DDDF /* Cocos2DInSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cocos2DInSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62F46EB1A0605AC0087DDDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F62F46EC1A0605AC0087DDDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F62F46EE1A0605AC0087DDDF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F62F46F31A0605AC0087DDDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F62F46F61A0605AC0087DDDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F62F47101A0607790087DDDF /* libCocos2D.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCocos2D.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -666,7 +681,6 @@
 			children = (
 				F62F4B771A06139B0087DDDF /* Cocos2DInSwift-Bridging-Header.h */,
 				F62F46EC1A0605AC0087DDDF /* AppDelegate.swift */,
-				F62F46EE1A0605AC0087DDDF /* ViewController.swift */,
 				F62F46F31A0605AC0087DDDF /* Images.xcassets */,
 				F62F46F51A0605AC0087DDDF /* LaunchScreen.xib */,
 				F62F4B9E1A0616F10087DDDF /* Images-2.xcassets */,
@@ -1273,6 +1287,8 @@
 			buildRules = (
 			);
 			dependencies = (
+				F62F4BAB1A0668590087DDDF /* PBXTargetDependency */,
+				F62F4BAD1A0668590087DDDF /* PBXTargetDependency */,
 			);
 			name = Cocos2DInSwift;
 			productName = Cocos2DInSwift;
@@ -1388,7 +1404,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F62F46EF1A0605AC0087DDDF /* ViewController.swift in Sources */,
 				F62F4BA71A0623F20087DDDF /* IntroScene.swift in Sources */,
 				F62F46ED1A0605AC0087DDDF /* AppDelegate.swift in Sources */,
 			);
@@ -1567,6 +1582,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F62F4BAB1A0668590087DDDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F62F470F1A0607790087DDDF /* Cocos2D */;
+			targetProxy = F62F4BAA1A0668590087DDDF /* PBXContainerItemProxy */;
+		};
+		F62F4BAD1A0668590087DDDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F62F48D91A060CCD0087DDDF /* Chipmunk */;
+			targetProxy = F62F4BAC1A0668590087DDDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F62F46F51A0605AC0087DDDF /* LaunchScreen.xib */ = {
